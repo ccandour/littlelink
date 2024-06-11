@@ -87,6 +87,17 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* AniList */
+.button.button-anilist {
+  color: #ffffff;
+  background-color: #1E2630;
+  border: 1px solid #FFFFFF;
+}
+.button.button-amazon:hover,
+.button.button-amazon:focus {
+  filter: brightness(90%);
+}
+
 /* Amazon */
 .button.button-amazon {
   color: #000000;

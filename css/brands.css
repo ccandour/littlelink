@@ -291,7 +291,7 @@ button:hover,
 /* Discord */
 .button.button-discord {
   color: #ffffff;
-  background-color: #161CBB;
+  background-color: #5865F2;
 }
 .button.button-discord:hover,
 .button.button-discord:focus {
@@ -371,11 +371,15 @@ button:hover,
 /* Flickr */
 .button.button-flickr {
   color: #ffffff;
-  background-color: #000000;
-  border: 1px solid #FFFFFF;
+  background-image: linear-gradient(
+    25deg,
+    #0063dc,
+    #a267f0,
+    #ff0084
+  );
 }
-.button.button-flickr:hover,
-.button.button-flickr:focus {
+.button.button-messenger:hover,
+.button.button-messenger:focus {
   filter: brightness(90%);
 }
 
@@ -413,7 +417,7 @@ button:hover,
 /* Goodreads */
 .button.button-goodreads {
   color: #333333;
-  background-color: #f3f1e6;
+  background-color: #e9e5cd;
   border: 1px solid #212121;
 }
 .button.button-goodreads:hover,
@@ -1060,7 +1064,7 @@ button:hover,
 /* YouTube */
 .button.button-yt {
   color: #ffffff;
-  background-color: #000000;
+  background-color: #282828;
   border: 1px solid #FFFFFF;
 }
 .button.button-yt:hover,

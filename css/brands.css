@@ -172,6 +172,17 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Archidekt */
+.button.button-archidekt {
+  color: #ffffff;
+  background-color: #181818;
+  border: 1px solid #FFFFFF;
+}
+.button.button-archidekt:hover,
+.button.button-archidekt:focus {
+  filter: brightness(90%);
+}
+
 /* ArtStation */
 .button.button-artstation {
   color: #ffffff;
